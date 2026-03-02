@@ -83,7 +83,7 @@ LIST @ML_DATA_STAGE;
 -- ============================================================================
 /*4.1 Subir archivos desde tu repo local (SnowSQL/terminal):*/
 
--- PUT file://./tables/*.csv @ML_DATA_STAGE AUTO_COMPRESS=TRUE;
+-- OPTIMIZING_CLEAN_WATER_SUPPLYOPTIMIZING_CLEAN_WATER_SUPPLY.RAW.ML_DATA_STAGEPUT file://./tables/*.csv @ML_DATA_STAGE AUTO_COMPRESS=TRUE;
 
 -- 4.2 Copiar cada CSV a su tabla (ajusta nombres exactos de archivos):
 -- COPY INTO RAW.WATER_QUALITY_TRAIN
